@@ -1,0 +1,16 @@
+names:
+- Blobbing
+- Warping
+- layer shift
+- spaghetti
+- stringing
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: detect-failure-in-3d-printing
+  url: https://universe.roboflow.com/seprinder/detect-failure-in-3d-printing/dataset/10
+  version: 10
+  workspace: seprinder
+test: ../test/images
+train: ../train/images
+val: ../valid/images
